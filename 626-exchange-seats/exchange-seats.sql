@@ -1,4 +1,13 @@
 # Write your MySQL query statement below
-SELECT ROW_NUMBER() OVER() id, student
-FROM seat
-ORDER BY IF(MOD(id, 2) = 0, id-1, id+1)
+select 
+case when
+id=(select max(id) from Seat) and mod(id,2)=1
+then id
+when 
+mod(id,2)=1
+then id+1
+else 
+id-1
+end as id, student
+from seat
+order by id
