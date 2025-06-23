@@ -2,6 +2,9 @@
 
 This repository contains the **LeetCode SQL 50 Questions**, a popular and curated set of problems that are frequently asked in SQL interviews. Practicing these questions will help you build a strong foundation in SQL and boost your confidence for cracking technical interviews involving databases and data analysis.
 
+![Architecture](./image.png)
+
+
 ## 🧠 About
 
 This is a collection of the top 50 SQL questions from LeetCode. It serves as a handy resource for:
